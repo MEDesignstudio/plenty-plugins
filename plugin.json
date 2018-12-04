@@ -1,8 +1,10 @@
 {
+      "version": "1.00.0",
       "name":"Bermaro",
       "description":"Bermaro Plugins",
       "namespace":"Bermaro",
       "author":"Matthias Eger",
+      "email": "mail@matthiaseger.de",
       "type":"template",
       "serviceProvider":"Bermaro\\Providers\\BermaroServiceProvider"
 }
