@@ -1,8 +1,8 @@
 {
-    "name"              :"BermaroDesign",
-    "description"       :"The design components for Bermaro-Template.",
-    "namespace"         :"Bermaro",
-    "author"            :"Matthias Eger",
-    "type"              :"template",
-    "serviceProvider"   :null
+      "name":"Bermaro",
+      "description":"Bermaro Plugins",
+      "namespace":"Bermaro",
+      "author":"Matthias Eger",
+      "type":"template",
+      "serviceProvider":"Bermaro\\Providers\\BermaroServiceProvider"
 }
