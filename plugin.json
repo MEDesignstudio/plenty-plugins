@@ -1,0 +1,8 @@
+{
+    "name"              :"BermaroDesign",
+    "description"       :"The design components for Bermaro-Template.",
+    "namespace"         :"Bermaro",
+    "author"            :"Matthias Eger",
+    "type"              :"template",
+    "serviceProvider"   :null
+}
