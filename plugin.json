@@ -1,10 +1,37 @@
 {
-      "version": "1.00.0",
-      "name":"Bermaro",
-      "description":"Bermaro Plugins",
-      "namespace":"Bermaro",
-      "author":"Matthias Eger",
-      "email": "mail@matthiaseger.de",
-      "type":"template",
-      "serviceProvider":"Bermaro\\Providers\\BermaroServiceProvider"
+    "version"           :   "1.0.0",
+    "name"              :   "Bermaro Theme",
+    "email"             :   "mail@matthiaseger.de",
+    "phone"             :   "+49 (0) 961 - 634 32 61",
+    "description"       :   "Bermaro Theme",
+    "shortDescription"  :   { "de": "Bermaro Theme", "en": "Bermaro Theme" },
+    "namespace"         :   "Bermaro",
+    "author"            :   "Matthias Eger",
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "serviceProvider"   :   "Bermaro\\Providers\\BermaroServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"Bermaro\\Containers\\BermaroContainer",
+            "name"          :"Stylesheet",
+            "description"   :"CSS"
+        },
+        {
+            "key"           :"Bermaro\\Containers\\BermaroItemListContainer1",
+            "name"          :"First item list",
+            "description"   :"ITEMS"
+        },
+        {
+            "key"           :"Bermaro\\Containers\\BermaroItemListContainer2",
+            "name"          :"Second item list",
+            "description"   :"ITEMS"
+        },
+        {
+            "key"           :"Bermaro\\Containers\\BermaroItemListContainer3",
+            "name"          :"Third item list",
+            "description"   :"ITEMS"
+        }
+    ]
 }
