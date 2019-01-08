@@ -1,1 +1,9 @@
 /* Enter your CSS here */
+
+nav {
+    background: #EA9A00;
+}
+
+nav a {
+    color: #fff;
+}

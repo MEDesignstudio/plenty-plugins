@@ -1,37 +1,43 @@
 {
-    "version"           :   "1.0.0",
+    "version"           :   "0.0.1",
+    "license"           :   "Bermaro",
     "name"              :   "BermaroTheme",
-    "email"             :   "mail@matthiaseger.de",
-    "phone"             :   "+49 (0) 961 - 634 32 61",
-    "description"       :   "Bermaro Theme",
-    "shortDescription"  :   { "de": "Bermaro Theme", "en": "Bermaro Theme" },
-    "namespace"         :   "Bermaro",
-    "author"            :   "Matthias Eger",
+    "marketplaceName"   :   {"de":"Ceres Vanilla","en":"Ceres Vanilla"},
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "authorIcon"        :   "icon_author_xs.png",
+    "email"             :   "mail@bermaro.de",
+    "phone"             :   "+49 961 - 930 49 37",
+    "description"       :   "Das Bermaro Design Theme.",
+    "shortDescription"  :   { "de": "Das Bermaro Design Theme.", "en": "The Bermaro Design Theme." },
+    "namespace"         :   "CeresVanilla",
+    "author"            :   "Bermaro GmbH",
+    "keywords"          :   ["bermaro", "plugins", "layout", "theme", "ceres"],
     "price"             :   0,
     "categories"        :   [3518],
     "type"              :   "theme",
-    "serviceProvider"   :   "Bermaro\\Providers\\BermaroServiceProvider",
+    "require"           :   ["Ceres"],
+    "serviceProvider"   :   "CeresVanilla\\Providers\\CeresVanillaServiceProvider",
     "dataProviders"     :
     [
         {
-            "key"           :"Bermaro\\Containers\\BermaroContainer",
+            "key"           :"CeresVanilla\\Containers\\CeresVanillaContainer",
             "name"          :"Stylesheet",
-            "description"   :"CSS"
+            "description"   :"Add changes to the CSS file"
         },
         {
-            "key"           :"Bermaro\\Containers\\BermaroItemListContainer1",
+            "key"           :"CeresVanilla\\Containers\\CeresVanillaItemListContainer1",
             "name"          :"First item list",
-            "description"   :"ITEMS"
+            "description"   :"Display a configurable list of items in your online store"
         },
         {
-            "key"           :"Bermaro\\Containers\\BermaroItemListContainer2",
+            "key"           :"CeresVanilla\\Containers\\CeresVanillaItemListContainer2",
             "name"          :"Second item list",
-            "description"   :"ITEMS"
+            "description"   :"Display a configurable list of items in your online store"
         },
         {
-            "key"           :"Bermaro\\Containers\\BermaroItemListContainer3",
+            "key"           :"CeresVanilla\\Containers\\CeresVanillaItemListContainer3",
             "name"          :"Third item list",
-            "description"   :"ITEMS"
+            "description"   :"Display a configurable list of items in your online store"
         }
     ]
 }
