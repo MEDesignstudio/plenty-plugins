@@ -2,7 +2,7 @@
     "version"           :   "0.0.1",
     "license"           :   "Bermaro",
     "name"              :   "BermaroTheme",
-    "marketplaceName"   :   {"de":"Ceres Vanilla","en":"Ceres Vanilla"},
+    "marketplaceName"   :   {"de":"Bermaro Theme","en":"Bermaro Theme"},
     "pluginIcon"        :   "icon_plugin_xs.png",
     "authorIcon"        :   "icon_author_xs.png",
     "email"             :   "mail@bermaro.de",
