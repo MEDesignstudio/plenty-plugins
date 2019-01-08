@@ -3,10 +3,10 @@ body {
     background: #EA9A00;
 }
 
-nav {
+.navbar {
     background: #EA9A00;
 }
 
-nav a {
+.navbar a {
     color: #fff;
 } 
