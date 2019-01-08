@@ -9,33 +9,33 @@
     "phone"             :   "+49 961 - 930 49 37",
     "description"       :   "Das Bermaro Design Theme.",
     "shortDescription"  :   { "de": "Das Bermaro Design Theme.", "en": "The Bermaro Design Theme." },
-    "namespace"         :   "CeresVanilla",
+    "namespace"         :   "BermaroTheme",
     "author"            :   "Bermaro GmbH",
     "keywords"          :   ["bermaro", "plugins", "layout", "theme", "ceres"],
     "price"             :   0,
     "categories"        :   [3518],
     "type"              :   "theme",
     "require"           :   ["Ceres"],
-    "serviceProvider"   :   "CeresVanilla\\Providers\\CeresVanillaServiceProvider",
+    "serviceProvider"   :   "BermaroTheme\\Providers\\BermaroThemeServiceProvider",
     "dataProviders"     :
     [
         {
-            "key"           :"CeresVanilla\\Containers\\CeresVanillaContainer",
+            "key"           :"BermaroTheme\\Containers\\BermaroThemeContainer",
             "name"          :"Stylesheet",
             "description"   :"Add changes to the CSS file"
         },
         {
-            "key"           :"CeresVanilla\\Containers\\CeresVanillaItemListContainer1",
+            "key"           :"BermaroTheme\\Containers\\BermaroThemeItemListContainer1",
             "name"          :"First item list",
             "description"   :"Display a configurable list of items in your online store"
         },
         {
-            "key"           :"CeresVanilla\\Containers\\CeresVanillaItemListContainer2",
+            "key"           :"BermaroTheme\\Containers\\BermaroThemeItemListContainer2",
             "name"          :"Second item list",
             "description"   :"Display a configurable list of items in your online store"
         },
         {
-            "key"           :"CeresVanilla\\Containers\\CeresVanillaItemListContainer3",
+            "key"           :"BermaroTheme\\Containers\\BermaroThemeItemListContainer3",
             "name"          :"Third item list",
             "description"   :"Display a configurable list of items in your online store"
         }

@@ -1,13 +1,13 @@
 <?php
 
-namespace CeresVanilla\Containers;
+namespace BermaroTheme\Containers;
 
 use Plenty\Plugin\Templates\Twig;
 
-class CeresVanillaContainer
+class BermaroThemeContainer
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('CeresVanilla::Stylesheet');
+        return $twig->render('BermaroTheme::Stylesheet');
     }
 }
