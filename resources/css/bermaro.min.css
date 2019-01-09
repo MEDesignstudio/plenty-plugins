@@ -1711,8 +1711,7 @@ select.form-control-lg:not([size]):not([multiple]),.input-group-lg>select.form-c
     color:lime
 }
 .has-success .form-control-success{
-    background-image:url("data:image/svg+xml;
-    charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E")
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E")
 }
 .has-warning .form-control-feedback,.has-warning .form-control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline,.has-warning.radio label,.has-warning.checkbox label,.has-warning.radio-inline label,.has-warning.checkbox-inline label,.has-warning .custom-control{
     color:#f0ad4e
@@ -1729,8 +1728,7 @@ select.form-control-lg:not([size]):not([multiple]),.input-group-lg>select.form-c
     color:#f0ad4e
 }
 .has-warning .form-control-warning{
-    background-image:url("data:image/svg+xml;
-    charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E")
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E")
 }
 .has-danger .form-control-feedback,.has-danger .form-control-label,.has-danger .radio,.has-danger .checkbox,.has-danger .radio-inline,.has-danger .checkbox-inline,.has-danger.radio label,.has-danger.checkbox label,.has-danger.radio-inline label,.has-danger.checkbox-inline label,.has-danger .custom-control{
     color:#d9534f
@@ -1747,8 +1745,7 @@ select.form-control-lg:not([size]):not([multiple]),.input-group-lg>select.form-c
     color:#d9534f
 }
 .has-danger .form-control-danger{
-    background-image:url("data:image/svg+xml;
-    charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E")
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E")
 }
 @media (min-width: 544px){
     .form-inline .form-group{
@@ -2694,20 +2691,17 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
     border-radius:.1rem
 }
 .custom-checkbox .custom-control-input:checked ~ .custom-control-indicator{
-    background-image:url("data:image/svg+xml;
-    charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E")
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E")
 }
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator{
     background-color:#0074d9;
-    background-image:url("data:image/svg+xml;
-    charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E")
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E")
 }
 .custom-radio .custom-control-indicator{
     border-radius:50%
 }
 .custom-radio .custom-control-input:checked ~ .custom-control-indicator{
-    background-image:url("data:image/svg+xml;
-    charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E")
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E")
 }
 .custom-controls-stacked .custom-control{
     display:inline
@@ -2727,8 +2721,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
     padding-right:.75rem \9;
     color:#7a7f7f;
     vertical-align:middle;
-    background:#fff url("data:image/svg+xml;
-    charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+    background:#fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
     background-image:none \9;
     background-size:8px 10px;
     border:1px solid rgba(0,0,0,0.15);
@@ -10195,8 +10188,7 @@ body.lb-disable-scrolling{
 }
 .lb-nav a{
     outline:none;
-    background-image:url("data:image/gif;
-    base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==")
+    background-image:url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==")
 }
 .lb-prev,.lb-next{
     height:100%;
@@ -10273,7 +10265,7 @@ body.lb-disable-scrolling{
 .owl-carousel .owl-stage-outer{
     position:relative;
     overflow:hidden;
-    -webkit-transform:translate3d(0px, 0px, 0px)
+    -webkit-transform:translate3d(0px, 0px, 0px);
 }
 .owl-carousel .owl-item{
     position:relative;
@@ -10289,7 +10281,7 @@ body.lb-disable-scrolling{
     -o-object-fit:contain;
     object-fit:contain;
     display:inline-block;
-    vertical-align:middle
+    vertical-align:middle;
 }
 #single-carousel .owl-item img{
     height:300px
@@ -10303,7 +10295,7 @@ body.lb-disable-scrolling{
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
-    user-select:none
+    user-select:none;
 }
 .owl-prev{
     position:absolute;
