@@ -1,0 +1,68 @@
+/* Navigation */
+/* ********************************************************* */
+
+.navbar {
+    background: #EA9A00;
+}
+
+.navbar a {
+    background: none !important;
+    color: #fff !important;
+    transition: .3s all;
+} 
+
+.navbar a:hover {
+    background: none !important;
+    color: #fff !important;
+    font-weight: bold;
+    transition: .3s all;
+} 
+
+@media (min-width: 992px) {
+
+    nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse {
+        background-color: #EA9A00;
+    }
+
+    nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li.level1>a {
+        color: #fff;
+    }
+
+}
+
+/* Breadcrumb */
+/* ********************************************************* */
+@media (min-width: 768px) {
+
+    .wrapper-main .breadcrumbs {
+        background: #EA9A00;
+    }
+
+}
+
+ul.breadcrumb {
+    color: #fff;
+}
+
+ul.breadcrumb a {
+    color: #fff;
+}
+
+
+/* Top Bar */
+/* ********************************************************* */
+.top-bar .controls-list .control-basket .toggle-basket-preview {
+    background-color: #EA9A00;
+    color: #fff;
+}
+
+
+/* Pagination */
+/* ********************************************************* */
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #EA9A00;
+    border-color: #EA9A00;
+}
