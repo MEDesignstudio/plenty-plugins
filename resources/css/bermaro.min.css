@@ -3627,7 +3627,7 @@ button:focus{
     outline:none
 }
 .cmp-search-box .search-submit:hover{
-    color:#d6c205
+    color:#e6b24e
 }
 .cmp-country-settings,.cmp-currency-select{
     background-color:#282d2f;
@@ -3771,7 +3771,7 @@ button:focus{
     }
     .no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li:hover,.touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li.hover{
         background:#fff;
-        color:#d6c205 !important
+        color:#e6b24e !important
     }
     nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse{
         background-color:#fff;
@@ -3809,7 +3809,7 @@ button:focus{
     }
     .no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li a:hover,.touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li a.hover{
         background:#fff;
-        color:#d6c205 !important
+        color:#e6b24e !important
     }
     nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul{
         background-color:#fff
