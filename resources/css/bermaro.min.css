@@ -1,5 +1,9 @@
 /* V3 */ 
 
+div nav ul.breadcrumb li.breadcrumb-item a {
+    color: #fff !important;
+}
+
 mark{
     background-color:#EA9A00;
     color:#000;
@@ -3863,11 +3867,11 @@ button:focus{
         background:#efefef
     }
     .wrapper-main .breadcrumbs{
-        background:#efefef;
-        z-index:1000
+        background: #EA9A00;
+        z-index: 1000;
     }
     .wrapper-main .breadcrumbs.unfixed{
-        z-index:-1
+        z-index: -1;
     }
     .wrapper-main .breadcrumb{
         max-width:1200px;
