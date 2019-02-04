@@ -2633,10 +2633,11 @@ a.text-danger:focus,a.text-danger:hover{
     background-color:#fff !important
 }
 .text-gray-dark{
-    color:#4D4F4D
+    color: #4D4F4D;
 }
 body{
-    background-color:#f7f7f9
+    background: #f7f7f9;
+    border-bottom: solid #EA9A00 5px;
 }
 body>#vue-app,body>#vue-error{
     background-color:#f7f7f9
