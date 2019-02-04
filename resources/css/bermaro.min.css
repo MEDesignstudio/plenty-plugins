@@ -248,7 +248,7 @@ select.form-control:focus::-ms-value{
 }
 
 .btn-primary{
-    color:#fff;
+    color:#fff !important;
     background-color:#EA9A00;
     border-color:#EA9A00;
 }
