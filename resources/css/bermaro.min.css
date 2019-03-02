@@ -4869,23 +4869,30 @@ html.ie .confirmation-order-list .cmp-order-item .item-details .row span,html.ie
     height:100%
 }
 .sidebar-categories .category-title{
-    background:#efefef;
-    padding:1.2rem 2rem;
-    text-transform:uppercase
+    /* background: #efefef; */
+    background: #EA9A00;
+    color: #fff;
+    font-weight: bold;
+    /*padding: 1.2rem 2rem;*/
+    padding: 1rem;
+    text-transform: uppercase;
 }
-.sidebar-categories ul li a{
-    display:block;
-    color:#4D4F4D;
-    padding:.75rem 15px;
-    font-size:1rem;
-    cursor:pointer
+
+.sidebar-categories ul li a {
+    display: block;
+    color: #4D4F4D;
+    padding: .5rem 15px;
+    font-size: 1rem;
+    cursor: pointer;
 }
+
 .sidebar-categories ul li a:hover{
-    color:#282d2f;
-    background:#f7f7f9
+    color: #282d2f;
+    background: #f7f7f9
 }
 .sidebar-categories ul li.active>a{
-    background:#f4f4f4
+    /*background: #f4f4f4*/
+    background: rgb(234, 179, 0);
 }
 .homepage-title{
     padding:1rem 1.5rem;
@@ -5429,8 +5436,8 @@ html.ie .widget-image-carousel .widget-inner .carousel-item .img-cover{
 }
 
 .footer .widget-grid .widget-inner .widget-list{
-    position:relative;
-    height:100%;
+    position: relative;
+    height: 100%;
     color: #4D4F4D;
     background-color: #dadae3;
     margin-left:-15px;
@@ -5440,4 +5447,22 @@ html.ie .widget-image-carousel .widget-inner .carousel-item .img-cover{
     -webkit-box-sizing:content-box;
     box-sizing:content-box;
     margin-bottom:0
+}
+
+.list-controls .filter-toggle {
+    background: #EA9A00 !important;
+    color: #fff !important;
+
+}
+
+@media (min-width: 544px) {
+
+    .list-controls .filter-toggle {
+        right: 1.5em !important;
+    }
+
+}
+
+.form-check {
+    margin-bottom: 0 !important;
 }
