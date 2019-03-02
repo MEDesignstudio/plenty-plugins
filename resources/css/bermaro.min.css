@@ -4799,18 +4799,19 @@ html.ie .confirmation-order-list .cmp-order-item .item-details .row span,html.ie
     color:#d9534f
 }
 .list-controls #filterCollapse .page-content{
-    background:#fff;
-    padding:2em !important;
-    border:1px solid #f4f4f4;
-    margin:0 7.5px
+    background: #fff;
+    padding: 2em !important;
+    border: 1px solid #f4f4f4;
+    border-bottom: solid #EA9A00 3px;
+    margin: 0 7.5px;
 }
 .list-controls #filterCollapse .page-content .card h3,.list-controls #filterCollapse .page-content .cmp-address-list .items>div:first-child h3,.cmp-address-list .list-controls #filterCollapse .page-content .items>div:first-child h3{
-    text-transform:uppercase;
-    font-size:1.2rem;
-    border-bottom:1px solid #b2b1a7;
-    padding-bottom:.5rem;
-    font-weight:bold;
-    color:#4D4F4D
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #b2b1a7;
+    padding-bottom: .5rem;
+    font-weight: bold;
+    color: #4D4F4D;
 }
 .list-controls #filterCollapse .page-content .card .form-check .form-check-input:checked+label,.list-controls #filterCollapse .page-content .cmp-address-list .items>div:first-child .form-check .form-check-input:checked+label,.cmp-address-list .list-controls #filterCollapse .page-content .items>div:first-child .form-check .form-check-input:checked+label{
     background:#f4f4f4;
