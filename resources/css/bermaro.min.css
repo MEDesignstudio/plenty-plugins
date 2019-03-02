@@ -205,18 +205,18 @@ select.form-control:focus::-ms-value{
 }
 
 .has-success .form-control-feedback,.has-success .form-control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline,.has-success.radio label,.has-success.checkbox label,.has-success.radio-inline label,.has-success.checkbox-inline label,.has-success .custom-control{
-    color:lime
+    color: #099c09
 }
 .has-success .form-control{
-    border-color:lime
+    border-color: #099c09
 }
 .has-success .input-group-addon{
-    color:lime;
-    border-color:lime;
+    color: #099c09;
+    border-color: #099c09;
     background-color:#cfc
 }
 .has-success .form-control-feedback{
-    color:lime
+    color: #099c09
 }
 .has-warning .form-control-feedback,.has-warning .form-control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline,.has-warning.radio label,.has-warning.checkbox label,.has-warning.radio-inline label,.has-warning.checkbox-inline label,.has-warning .custom-control{
     color:#f0ad4e
@@ -351,8 +351,8 @@ select.form-control:focus::-ms-value{
 }
 .btn-success{
     color:#fff;
-    background-color:lime;
-    border-color:lime
+    background-color: #099c09;
+    border-color: #099c09
 }
 .btn-success:hover{
     color:#fff;
@@ -375,12 +375,12 @@ select.form-control:focus::-ms-value{
     border-color:green
 }
 .btn-success.disabled:focus,.btn-success.disabled.focus,.btn-success:disabled:focus,.btn-success:disabled.focus{
-    background-color:lime;
-    border-color:lime
+    background-color: #099c09;
+    border-color: #099c09
 }
 .btn-success.disabled:hover,.btn-success:disabled:hover{
-    background-color:lime;
-    border-color:lime
+    background-color: #099c09;
+    border-color: #099c09
 }
 .btn-warning{
     color:#fff;
@@ -539,23 +539,23 @@ select.form-control:focus::-ms-value{
     border-color:#f66
 }
 .btn-outline-success{
-    color:lime;
-    border-color:lime
+    color: #099c09;
+    border-color: #099c09
 }
 .btn-outline-success:hover{
     color:#fff;
-    background-color:lime;
-    border-color:lime
+    background-color: #099c09;
+    border-color: #099c09
 }
 .btn-outline-success:focus,.btn-outline-success.focus{
     color:#fff;
-    background-color:lime;
-    border-color:lime
+    background-color: #099c09;
+    border-color: #099c09
 }
 .btn-outline-success:active,.btn-outline-success.active,.open>.btn-outline-success.dropdown-toggle{
     color:#fff;
-    background-color:lime;
-    border-color:lime
+    background-color: #099c09;
+    border-color: #099c09
 }
 .btn-outline-success:active:hover,.btn-outline-success:active:focus,.btn-outline-success:active.focus,.btn-outline-success.active:hover,.btn-outline-success.active:focus,.btn-outline-success.active.focus,.open>.btn-outline-success.dropdown-toggle:hover,.open>.btn-outline-success.dropdown-toggle:focus,.open>.btn-outline-success.dropdown-toggle.focus{
     color:#fff;
@@ -889,8 +889,8 @@ select.form-control:focus::-ms-value{
     background-color:transparent
 }
 .card-success{
-    background-color:lime;
-    border-color:lime
+    background-color: #099c09;
+    border-color: #099c09
 }
 .card-success .card-header,.card-success .card-footer{
     background-color:transparent
@@ -930,7 +930,7 @@ select.form-control:focus::-ms-value{
 }
 .card-outline-success{
     background-color:transparent;
-    border-color:lime
+    border-color: #099c09
 }
 .card-outline-warning{
     background-color:transparent;
@@ -1007,7 +1007,7 @@ a.tag:focus,a.tag:hover{
     background-color:#EA9A00;
 }
 .tag-success{
-    background-color:lime;
+    background-color: #099c09;
 }
 .tag-success[href]:focus,.tag-success[href]:hover{
     background-color:#0c0;
@@ -1100,17 +1100,17 @@ base::-moz-progress-bar,.progress[value]{
     }
 }
 .progress-success[value]::-webkit-progress-value{
-    background-color:lime
+    background-color: #099c09
 }
 .progress-success[value]::-moz-progress-bar{
-    background-color:lime
+    background-color: #099c09
 }
 .progress-success[value]::-ms-fill{
-    background-color:lime
+    background-color: #099c09
 }
 @media screen and (min-width: 0\0){
     .progress-success .progress-bar{
-        background-color:lime
+        background-color: #099c09
     }
 }
 .progress-info[value]::-webkit-progress-value{
@@ -1919,7 +1919,7 @@ a.bg-primary:focus,a.bg-primary:hover{
 }
 .bg-success{
     color:#fff !important;
-    background-color:lime !important
+    background-color: #099c09 !important
 }
 a.bg-success:focus,a.bg-success:hover{
     background-color:#0c0 !important
@@ -2369,7 +2369,7 @@ a.text-primary:focus,a.text-primary:hover{
     color:#EA9A00
 }
 .text-success{
-    color:lime !important
+    color: #099c09 !important
 }
 a.text-success:focus,a.text-success:hover{
     color:#0c0
@@ -3174,16 +3174,16 @@ button:focus{
 }
 .input-unit.success{
     z-index:1000;
-    border-color:lime
+    border-color: #099c09
 }
 .input-unit.success input{
-    color:lime
+    color: #099c09
 }
 .input-unit.success label{
-    color:lime
+    color: #099c09
 }
 .input-unit.success i{
-    background-color:lime;
+    background-color: #099c09;
     color:white
 }
 .file-input>.input-unit-btn{
@@ -3205,7 +3205,7 @@ button:focus{
     color:#4D4F4D
 }
 .file-input.success .input-unit-btn,.file-input.success .input-unit-btn i{
-    background-color:lime;
+    background-color: #099c09;
     color:#fff
 }
 .file-input.error .input-unit-btn,.file-input.error .input-unit-btn i{
@@ -4758,7 +4758,7 @@ html.ie .confirmation-order-list .cmp-order-item .item-details .row span,html.ie
 }
 
 .wish-list-item>div.row .wish-list-availability.availability_1,.wish-list-item>div.row .availability_2{
-    color:lime;
+    color: #099c09;
     background-color:inherit
 }
 .wish-list-item>div.row .wish-list-availability.availability_3,.wish-list-item>div.row .availability_4{
@@ -5053,13 +5053,13 @@ html.ie .confirmation-order-list .cmp-order-item .item-details .row span,html.ie
     background:#f4f4f4
 }
 .single .graduated-prices-table i{
-    color:lime
+    color: #099c09
 }
 .single .order-property-input.active{
-    border-color:lime
+    border-color: #099c09
 }
 .availability_1,.availability_2{
-    background-color:lime
+    background-color: #099c09
 }
 .availability_3,.availability_4{
     background-color:#f0ad4e
@@ -5254,13 +5254,13 @@ html.ie .widget-image-carousel .widget-inner .carousel-item .img-cover{
     background-color:rgba(0,255,0,0.9)
 }
 .widget-image-carousel.widget-success .carousel-indicators li{
-    border-color:lime
+    border-color: #099c09
 }
 .widget-image-carousel.widget-success .carousel-indicators li.active{
-    background-color:lime
+    background-color: #099c09
 }
 .widget-image-carousel.widget-success .carousel-control .fa{
-    color:lime
+    color: #099c09
 }
 .widget-image-carousel.widget-info .widget-caption h2,.widget-image-carousel.widget-info .widget-caption .h2{
     color:#fff;
@@ -5380,7 +5380,7 @@ html.ie .widget-image-carousel .widget-inner .carousel-item .img-cover{
 
 .widget-text.widget-success{
     color:#fff;
-    background-color:lime
+    background-color: #099c09
 }
 .widget-text.widget-info{
     color:#fff;
@@ -5476,4 +5476,8 @@ html.ie .widget-image-carousel .widget-inner .carousel-item .img-cover{
 .widget-inner .btn-primary:hover {
     background: rgb(234, 179, 0) !important;
     transition: .2s all;
+}
+
+.color-red {
+    color: #FF0000 !important;
 }
